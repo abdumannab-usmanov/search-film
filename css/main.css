@@ -1,0 +1,137 @@
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+.container{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.js-form{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.movie{
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.more{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
+.js-input{
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.films{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+
+.item{
+    border-radius: 8px;
+    background-color: #fff;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+
+.img{
+    width: 300px;
+    height: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.new-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+
+.wrapper{
+    padding: 10px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    text-align: center;
+    
+}
+
+
+.sub-img{
+    width: 250px;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.year{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.close-btn{
+    font-size: 22px;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    border: none;
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+    outline: none;
+}
