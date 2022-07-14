@@ -4,7 +4,7 @@ let elInput = document.querySelector(".js-input");
 let elList = document.querySelector(".films");
 let elModal = document.querySelector(".more");
 
-
+elModal.classList.add("modal")
 
 
 const API_KEY = "31242af7";
@@ -66,10 +66,10 @@ elForm.addEventListener("submit", function (evt) {
 
 elList.addEventListener("click", (evt) => {
 
-     elModal.innerHTML = ""
-
+    
     if(evt.target.matches(".modal-btn")){
-
+        elModal.innerHTML = ""
+        
         elModal.classList.add("open")
         let moreId = evt.target.dataset.modalId
         let findId = films.find(e => e.imdbID == moreId)
