@@ -165,22 +165,3 @@ elSelect.addEventListener("click", function(evt){
 })
 
 
-// let result = []
-// // let aler = document.querySelector(".aler")
-
-// elSelect.addEventListener("change", function () {
-//     elList.innerHTML = "";
-//     let selectValue = elSelect.value;
-    
-//     elList.forEach((type) => {
-//         type.forEach((e) =>{
-//             if (e.Type.includes(selectValue)) {
-//                 result.push(e);          
-                
-//             }
-//         })
-        
-//     })
-    
-//     getPost(result, elList);
-// });
