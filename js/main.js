@@ -66,7 +66,7 @@ async function getPost() {
     }
     
     elPaginatonList.innerHTML = ""
-    for(i=1; i < totalPage; i++){
+    for(i=1; i <=  totalPage; i++){
         let newPaginationTemplate = elPaginationTemplate.cloneNode(true)
         newPaginationTemplate.querySelector(".page-link").textContent = i
         newPaginationTemplate.querySelector(".page-link").dataset.pageId = i
