@@ -13,10 +13,7 @@ body{
     padding: 0 20px;
 }
 
-.js-form{
-    width: 200px;
-    margin: 0 auto;
-}
+
 
 .movie{
     text-align: center;
@@ -44,6 +41,8 @@ body{
 }
 
 .js-input{
+    width: 200px;
+    margin: 0 auto;
     border-radius: 20px;
     padding: 5px;
     margin-bottom: 20px;
@@ -134,4 +133,64 @@ body{
     background-color: red;
     border-radius: 5px;
     outline: none;
+}
+
+
+
+/* =========================== */
+
+main{
+    flex-grow: 1;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.films{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+
+.item{
+    width: 250px;
+    height: auto;
+    padding:10px 15px ;
+    border-radius: 8px;
+    background-color: darkcyan;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+
+.nav{
+    display: flex;
+    
+}
+
+.pagination{
+    width: 347px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red;
 }
